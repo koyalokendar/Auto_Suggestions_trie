@@ -1,2 +1,7 @@
 # Auto_Suggestions_trie
-Auto_Filling of words using trie data structure and file data structurs
+Auto_Filling of words using trie data structure and file data structurs                                                                   
+Since a trie is a tree-like data structure in which each node contains an array of pointers, one pointer for each character in the          alphabet.                                                                                                                                 • Starting at the root node, we can trace a word by following pointers corresponding to the letters in the target word.                   • Starting from the root node, you can check if a word exists in the trie easily by following pointers corresponding to the letters in the   target word.
+Auto-complete functionality is used widely over the internet and mobile apps. A lot of websites and apps try to complete your input as soon as you start typing.                                                                                                                 
+• All the descendants of a node have a common prefix of the string associated with that node.                                             
+Implementing auto complete using a trie is easy.                                                                                         
+• We simply trace pointers to get to a node that represents the string the user entered. By exploring the trie from that node down, we can enumerate all strings that complete user’s input.
